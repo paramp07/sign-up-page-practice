@@ -84,6 +84,8 @@ p {
     height: 10%;
 }
 
+
+
 .client-info {
     height: 10%;
     justify-content: flex-end;
@@ -173,11 +175,32 @@ p {
     opacity: 90%;
 }
 
+@media (max-width:1400px) {
+    .empty img {
+        width: 50px;
+    }
+}
 
 
 @media (max-width:990px) {
     .contain {
         height: 60%;
         align-self: center;
+    }
+    .empty img {
+        width: 40px;
+    }
+
+    .smaller {
+        height: 89%;
+    }
+    .image h1 {
+        font-size: 1.2rem;
+    }
+    .image h2 {
+        font-size: .9rem;
+    }
+    .image p, h3 {
+        font-size: .7rem;
     }
 }
